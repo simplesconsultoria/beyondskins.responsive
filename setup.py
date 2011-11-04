@@ -23,7 +23,7 @@ setup(name='beyondskins.responsive',
       url='http://www.simplesconsultoria.com.br/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['beyondskins', 'beyondskins.responsive'],
+      namespace_packages=['beyondskins',],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
