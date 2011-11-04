@@ -32,20 +32,23 @@ Layout of the site when viewed with a tablet resolution:
 
 Installation
 ------------
-    
+
+Getting the theme
+~~~~~~~~~~~~~~~~~~~~
+
 Zip file
-~~~~~~~~
+++++++++++
 
 If you are an end user, you might enjoy installation via zip file import.
 
-    1. Download the zip file: http://github.com/simplesconsultoria/beyondskins.responsive/beyondskins.responsive.zip
-    
+    1. Download a `zip file <https://github.com/simplesconsultoria/beyondskins.responsive/raw/master/beyondskins.responsive.zip>`_ 
+        
     2. Import the theme from the Diazo theme control panel.
 
 Buildout
-~~~~~~~~
+++++++++++
 
-If you are a developer, you might enjoy installation via buildout.
+If you are a developer, you might enjoy installing it via buildout.
 
 Add ``beyondskins.responsive`` to your ``plone.recipe.zope2instance`` section's *eggs* parameter e.g.::
 
@@ -55,8 +58,16 @@ Add ``beyondskins.responsive`` to your ``plone.recipe.zope2instance`` section's 
         …
         beyondskins.responsive
 
-Select theme
-~~~~~~~~~~~~
+Or, you can add it as a dependency on your own product *setup.py*::
+
+    install_requires=[
+        ...
+        'beyondskins.responsive',
+    ],
+
+
+Enabling the theme
+~~~~~~~~~~~~~~~~~~~~
 
     Select and enable the theme from the Diazo control panel. That's it!
 
