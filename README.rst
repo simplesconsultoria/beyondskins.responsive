@@ -58,7 +58,7 @@ Add ``beyondskins.responsive`` to your ``plone.recipe.zope2instance`` section's 
     [instance]
     eggs =
         Plone
-        …
+        ...
         beyondskins.responsive
 
 Or, you can add it as a dependency on your own product *setup.py*::
