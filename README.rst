@@ -10,8 +10,11 @@ Overview
 
 Responsive Diazo is an installable Plone Theme developed by `Simples
 Consultoria <http://www.simplesconsultoria.com.br/>`_ using the **theming** and
-**packaging** features available in `plone.app.theming`_
- 
+**packaging** features available in `plone.app.theming`_.
+
+You could use this theme as a start for you own Diazo themes -- but send us a
+postcard, ok ;-)
+
 Requirements
 ------------
 
