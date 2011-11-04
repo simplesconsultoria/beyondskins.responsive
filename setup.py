@@ -6,7 +6,7 @@ version = open(os.path.join("beyondskins", "responsive", "version.txt")).read().
 
 setup(name='beyondskins.responsive',
       version=version,
-      description="",
+      description="A responsive design for Plone/Diazo powered sites",
       long_description=open(os.path.join("README.rst")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
