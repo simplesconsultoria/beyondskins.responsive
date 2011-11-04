@@ -2,6 +2,9 @@
 Responsive Diazo
 ===============================================
 
+.. contents:: Table of Contents
+   :depth: 2
+
 Overview
 --------
 
@@ -21,11 +24,11 @@ Screenshots
 
 Layout of the site when viewed in a computer resolution:
 
-.. image:: http://github.com/simplesconsultoria/beyondskins.responsive/beyondskins.responsive-full.png
+.. image:: https://github.com/simplesconsultoria/beyondskins.responsive/raw/master/beyondskins.responsive-full.png
 
 Layout of the site when viewed with a tablet resolution:
 
-.. image:: http://github.com/simplesconsultoria/beyondskins.responsive/beyondskins.responsive-reduced.png
+.. image:: https://github.com/simplesconsultoria/beyondskins.responsive/raw/master/beyondskins.responsive-reduced.png
 
 Installation
 ------------
@@ -72,3 +75,4 @@ Credits
 
 .. _`plone.app.theming`: http://pypi.python.org/pypi/plone.app.theming
 .. _`Plone 4.1`: http://pypi.python.org/pypi/Plone/4.1rc2
+
