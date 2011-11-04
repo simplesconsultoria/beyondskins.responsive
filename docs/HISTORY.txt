@@ -1,0 +1,13 @@
+Changelog
+------------
+
+0.1 - (2011-11-03)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    * Packaging [erico_andrei]
+    * Applies Liquid Layout  [tamosauskas]
+    * Proportional use of images and fonts [tamosauskas]
+    * Media queries for responsive design [tamosauskas]
+    * Transparent Bacground in the header image [tamosauskas]
+    * Search Box layout without images [tamosauskas]
+

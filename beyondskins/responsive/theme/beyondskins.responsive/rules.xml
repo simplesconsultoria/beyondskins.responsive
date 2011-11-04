@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <theme href="index.html" css:if-content="#visual-portal-wrapper" />
+
+    <!--Head-->
+    <copy css:content="html" css:theme="html" attributes="lang dir" />
+    <before css:content="head meta" css:theme="head meta" />
+    <drop css:content="head link[rel='shortcut icon']" />
+    <drop css:content="head link[rel='apple-touch-icon']" />    
+    <before css:content="head link" css:theme="head link" />    
+    <replace css:content="head title" css:theme="head title" />    
+    <copy css:content="head base" css:theme="head base" />    
+    
+    <!--Content-->
+    <merge attributes="class" css:content="body" css:theme="body" />
+    <copy attributes="id dir" css:content="body" css:theme="body" />
+    <replace css:content="#portal-columns" css:theme="#content" />
+    
+    <!--Viewlets-->
+    <replace css:content="#portal-personaltools" css:theme="#user" />    
+    <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
+    
+    <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
+    
+    <replace css:content="#portal-header p.hiddenStructure" css:theme="#accessibility" />
+    
+    
+    <drop css:content=".searchSection" />
+    <replace css:content="#portal-searchbox" css:theme="#search" />
+    <replace css:content-children="#portal-advanced-search" css:theme-children="#searchbt" />
+    <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
+    <replace css:content-children="#portal-footer" css:theme="#footer-info" />   
+    <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />  
+    
+
+    <!--Portlets-->
+    <!-- Control Panel -->
+    <after css:content="head script" css:theme="#wrapper" />
+    <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="#wrapper" />
+    
+</rules>

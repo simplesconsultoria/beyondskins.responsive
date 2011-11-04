@@ -1,0 +1,170 @@
+/*****************************   
+Responsive Diazo - basic CSS
+Simples Consultoria
+www.simplesconsultoria.com.br
+******************************/
+/* reset */
+* {margin:0; padding:0; list-style:none; vertical-align:baseline;}
+
+/************** Responsive Diazo Magic ************************/
+
+/* Background images */
+body {background: #ffffff url(bg.jpg) top repeat-x;}
+#header {background: transparent url(header.png) top center no-repeat;}
+
+/* Colors and fonts */
+body {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 62.5%;}
+a:link, a:visited, #content a:link, dl.portlet a:link {color:#205C90;}
+a:hover {color:$a_hover_color;}
+h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif;}
+h1 {color: #205C90;}
+h2, h3, h4, h5, h6 {color: #636466;}
+#wrapper { width:auto; margin: 0 auto; max-width: 90%;	font-size: 1.1em;}
+#main {background:$content_color; font-size: 1.3em; padding: 1em 0;}
+
+#nav {background: #205C90;	text-align: center; color: #ffffff;}
+#nav a {color: #ffffff;}
+#nav a:hover, #nav li.selected a {background: #ff9900;}
+
+#portal-searchbox #searchGadget {
+border-width: 1px;
+border-style: solid;
+border-color: #597a97;
+}
+#portal-searchbox .searchButton {
+background:#636466;
+color: #ffffff;
+border-width: 1px;
+border-style: solid;
+border-color: #c8c8c9;
+}
+#footer {background: #205C90; color: #fff;;}
+#footer a:link {color:#fff;;}
+#footer a:hover {color:#fff;;}
+#footer a:visited {color:#fff;;}
+
+
+/****************** Basic Stuff ***********************/
+
+#content {font-size: 90%;}
+p {line-height: 1.8em; margin: 0 0 1em 0;}
+h1, h2, h3 {margin: 0.5em 0 0.5em;}
+.hidden {display: none;} 
+.clear {clear: both;}
+.pb-ajax, .pb-image, 
+.overlay iframe {font-size: 1.3em;}
+div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
+.portlet img, #content img {max-width:100%;}
+
+/*header*/
+#header {background-size:100% auto;	position:relative;}
+#logo {padding: 4.83% 1.61%;float: left; width: 50%;}
+#logo img {max-width:100%;}
+#logo a {display:block; width:100%;}
+#portal-personaltools {font-size: 1.1em;}
+
+/* navigation */
+#nav {padding: 1em 2em 1em 0;	font-size: 1.2em;}
+#nav ul {padding-top: 0;}
+#nav li {display: inline;}
+#nav a {	padding: 1.1em 2em 1em 2em; text-decoration: none;}
+#searchbt, #nav #seletor {display:none;}
+
+/* Searchbox */
+#portal-searchbox {float: right; margin: 3.5%  1% 0 0; width:24%; font-size: 1em;}
+#portal-searchbox  form, #portal-searchbox  form .LSBox  {font-size: 100%;}
+#portal-searchbox #searchGadget {
+	padding: 1% 0  1.1% 0;
+	margin-right: 0.6%;
+	text-indent: 2%;
+	width: 72%;
+	font-size:1.1em;
+}
+#portal-searchbox .searchButton {font-size:0.8em; width: 27%; padding:1.899% 0  0.8% 0; text-align:center;}
+#LSResult {z-index:1; margin-top: 0.5%;}
+
+/*footer*/
+#footer {clear: left; padding: 2em;}
+
+/* Site Actions */
+#portal-siteactions {font-size: 100%; text-align: left; display:inline;}
+
+/* Responsive Design Magic*/
+
+@media screen and (max-width: 768px) {
+
+	#wrapper {max-width: 100%;}
+	#logo {min-width:140px;}	
+	
+	/*Columns*/
+	#portal-column-one, 
+	#portal-column-two,
+	#portal-column-content {clear: both; width: 97.75%; margin-left: -98.875%;}
+
+	/*Search*/
+    #portal-searchbox  {display:none;}
+
+	/*Global navigation*/
+	#nav {padding:0;width:100%;
+	}
+	
+	#searchbt {display:block; float:right;width:14%;}
+	
+	#searchbt a {
+		display:block;
+		text-indent: -900000px;
+		padding: 1em;
+		margin-top: 4%;
+		background:transparent url(search-ico.png) no-repeat center center;
+	}
+	
+	#nav #seletor {
+		display:block;
+		padding:1em;
+		width:80%;
+		background:url("sections-ico.png") no-repeat 97% 60%;
+	 }
+	
+	#nav li {display: none;}
+	
+	#nav:hover li {
+		display: block;
+		width:100%; 
+		border-top:1px solid #ffffff;;
+		display:block !Important;
+		padding:0;
+	}
+	
+	#nav ul {
+		width:97.5%;
+		margin:0;
+		padding:0;
+	}
+	
+	#nav:hover li a {
+		color: #ffffff;;
+		width:100%;
+		padding:0 2.5%;
+		line-height: 3em;
+      display: block;
+      width: 95% !important;
+	}
+	
+	#nav:hover li:hover {background: #ff9900;}
+	#nav:hover li a:hover,
+	#nav:hover li.selected a {background: transparent;}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	#portal-breadcrumbs {display:none;}
+	
+	#portal-searchbox {
+	    float: none;
+        width:80%;
+		clear:both;
+		margin: 0 auto 2%;
+}
+	}
+)
