@@ -152,6 +152,16 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 	#nav:hover li:hover {background: #ff9900;}
 	#nav:hover li a:hover,
 	#nav:hover li.selected a {background: transparent;}
+	
+.overlay.overlay-ajax {top: 10px !Important;}
+.overlay.overlay-ajax input.searchPage {
+    font-size: 200% !important;
+    width: 90%;
+    margin-bottom:1em;
+}
+.overlay.overlay-ajax input.searchPage.searchButton {width:auto;}
+.overlay.overlay-ajax #searchform .discreet {text-align:left;}
+.overlay.overlay-ajax #content-core strong {display:none;}
 
 }
 
