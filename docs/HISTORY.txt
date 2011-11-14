@@ -4,8 +4,8 @@ Changelog
 0.2 (unreleased)
 ~~~~~~~~~~~~~~~~
 
-- Nothing changed yet.
-
+    * Including customizable touch-favicon  [tamosauskas]
+    * Pixel-Perfect adjustment in navbar [tamosauskas]
 
 0.1 (2011-11-04)
 ~~~~~~~~~~~~~~~~
