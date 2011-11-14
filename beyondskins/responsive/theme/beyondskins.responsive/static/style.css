@@ -1,7 +1,6 @@
 /*****************************   
-Responsive Diazo - basic CSS
-Simples Consultoria
-www.simplesconsultoria.com.br
+beyondskins.Responsive - Diazo responsive theme for PLone
+Simples Consultoria - www.simplesconsultoria.com.br
 ******************************/
 /* reset */
 * {margin:0; padding:0; list-style:none; vertical-align:baseline;}
@@ -15,12 +14,12 @@ body {background: #ffffff url(bg.jpg) top repeat-x;}
 /* Colors and fonts */
 body {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 62.5%;}
 a:link, a:visited, #content a:link, dl.portlet a:link {color:#205C90;}
-a:hover {color:$a_hover_color;}
+a:hover {color:#000;}
 h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif;}
 h1 {color: #205C90;}
 h2, h3, h4, h5, h6 {color: #636466;}
 #wrapper { width:auto; margin: 0 auto; max-width: 90%;	font-size: 1.1em;}
-#main {background:$content_color; font-size: 1.3em; padding: 1em 0;}
+#main {background:#fff; font-size: 1.3em; padding: 1em 0;}
 
 #nav {background: #205C90;	text-align: left; color: #ffffff;}
 #nav a {color: #ffffff;}

@@ -6,6 +6,7 @@ Changelog
 
     * Including customizable touch-favicon  [tamosauskas]
     * Pixel-Perfect adjustment in navbar [tamosauskas]
+    * Add ARIA landmark roles [agnogueira]
 
 0.1 (2011-11-04)
 ~~~~~~~~~~~~~~~~
