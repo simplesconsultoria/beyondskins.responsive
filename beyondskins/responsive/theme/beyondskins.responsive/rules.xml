@@ -13,6 +13,7 @@
     <drop css:content="head link[rel='apple-touch-icon']" />    
     <before css:content="head link" css:theme="head link" />    
     <replace css:content="head title" css:theme="head title" />    
+	<before css:content="head script" css:theme="head script" />
     <copy css:content="head base" css:theme="head base" />    
     
     <!--Content-->
@@ -32,7 +33,6 @@
     
     <drop css:content=".searchSection" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
-    <replace css:content-children="#portal-advanced-search" css:theme-children="#searchbt" />
     <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
     <replace css:content-children="#portal-footer" css:theme="#footer-info" />   
     <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />  
@@ -40,7 +40,6 @@
 
     <!--Portlets-->
     <!-- Control Panel -->
-    <after css:content="head script" css:theme="#wrapper" />
     <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="#wrapper" />
     
 </rules>

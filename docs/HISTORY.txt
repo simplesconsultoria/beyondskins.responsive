@@ -7,6 +7,8 @@ Changelog
     * Including customizable touch-favicon  [tamosauskas]
     * Pixel-Perfect adjustment in navbar [tamosauskas]
     * Add ARIA landmark roles [agnogueira]
+	* Add a so much better Ipad navigation experience [tamosauskas]
+    * Mobile search using overlay [tamosauskas]
 
 0.1 (2011-11-04)
 ~~~~~~~~~~~~~~~~
