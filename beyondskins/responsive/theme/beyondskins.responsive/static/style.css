@@ -30,7 +30,6 @@ h2, h3, h4, h5, h6 {color: #636466;}
 border-width: 1px;
 border-style: solid;
 border-color: #597a97;
-padding-top: 0.45em;
 }
 #portal-searchbox .searchButton {
 background:#636466;
@@ -75,7 +74,7 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 #portal-searchbox {float: right; margin: 3.5%  1% 0 0; width:24%; font-size: 1em;}
 #portal-searchbox  form, #portal-searchbox  form .LSBox  {font-size: 100%;}
 #portal-searchbox #searchGadget {
-	padding: 1% 0  1.1% 0;
+	padding: 1.2% 0  1.1% 0;
 	margin-right: 0.6%;
 	text-indent: 2%;
 	width: 72%;
