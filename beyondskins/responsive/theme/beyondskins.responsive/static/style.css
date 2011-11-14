@@ -22,14 +22,15 @@ h2, h3, h4, h5, h6 {color: #636466;}
 #wrapper { width:auto; margin: 0 auto; max-width: 90%;	font-size: 1.1em;}
 #main {background:$content_color; font-size: 1.3em; padding: 1em 0;}
 
-#nav {background: #205C90;	text-align: center; color: #ffffff;}
+#nav {background: #205C90;	text-align: left; color: #ffffff;}
 #nav a {color: #ffffff;}
-#nav a:hover, #nav li.selected a {background: #ff9900;}
+#nav a:hover, #nav li.selected a {padding-top: 1em;background: #ff9900;}
 
 #portal-searchbox #searchGadget {
 border-width: 1px;
 border-style: solid;
 border-color: #597a97;
+padding-top: 0.45em;
 }
 #portal-searchbox .searchButton {
 background:#636466;
