@@ -4,7 +4,8 @@ Changelog
 0.3 (unreleased)
 ~~~~~~~~~~~~~~~~
 
-- Nothing changed yet.
+    * Explicitly add stuff to Manifest.in , solving issue #1 [ericof]
+    * Add include MANIFEST.in to MANIFEST.in [ericof]
 
 
 0.2 (2012-02-23)
