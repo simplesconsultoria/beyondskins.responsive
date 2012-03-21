@@ -1,7 +1,7 @@
 Changelog
 ------------
 
-0.3 (unreleased)
+0.3 (2012-03-21)
 ~~~~~~~~~~~~~~~~
 
     * Explicitly add stuff to Manifest.in , solving issue #1 [ericof]
