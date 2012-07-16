@@ -23,21 +23,17 @@
     <!--Viewlets-->
     <replace css:content="#portal-personaltools" css:theme="#user" />    
     <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
-    
-    <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
-    
-    <replace css:content="#portal-header p.hiddenStructure" css:theme="#accessibility" />
-    
-    
+    <replace css:content="#portal-header p.hiddenStructure" css:theme="#accessibility" /> 
     <drop css:content=".searchSection" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
     <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
     <replace css:content-children="#portal-footer" css:theme="#footer-info" />   
     <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />  
-    
+    <after css:content="#portal-languageselector" css:theme="#logo" />    
 
     <!--Portlets-->
     <!-- Control Panel -->
     <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="#wrapper" />
-    
+
+
 </rules>

@@ -1,11 +1,11 @@
 Changelog
 ------------
 
-0.4 (unreleased)
+0.4 (2012-07-26)
 ~~~~~~~~~~~~~~~~
 
-- A most efficient rule for head elements. Thanks brett-kimball [tamosauskas]
-
+    * New rule for PLone Lingua [tamosauskas]
+    * A most efficient rule for head elements. Thanks brett-kimball [tamosauskas]
 
 0.3 (2012-03-21)
 ~~~~~~~~~~~~~~~~
