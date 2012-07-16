@@ -4,7 +4,7 @@ Changelog
 0.4 (unreleased)
 ~~~~~~~~~~~~~~~~
 
-- Nothing changed yet.
+- A most efficient rule for head elements. Thanks brett-kimball [tamosauskas]
 
 
 0.3 (2012-03-21)
