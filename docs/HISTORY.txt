@@ -1,10 +1,11 @@
 Changelog
 ------------
 
-0.4 (2012-07-26)
+0.4 (2012-07-16)
 ~~~~~~~~~~~~~~~~
 
-    * New rule for PLone Lingua [tamosauskas]
+    * New diazo rule for Analytics [tamosauskas]
+    * New diazo rule for Plone Lingua [tamosauskas]
     * A most efficient rule for head elements. Thanks brett-kimball [tamosauskas]
     * Fix bug in lists and numbered lists in content [tamosauskas]
 

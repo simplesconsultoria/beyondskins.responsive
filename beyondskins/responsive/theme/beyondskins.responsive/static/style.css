@@ -62,7 +62,7 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
     margin-bottom: 0.25em;
 }
 #content ol li, dl.portlet ol li {list-style: decimal outside;}
-
+dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 /*header*/
 #header {background-size:100% auto;	position:relative;}
 #logo {padding: 4.83% 1.61%;float: left; width: 50%;}
