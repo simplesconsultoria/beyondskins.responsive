@@ -54,6 +54,14 @@ h1, h2, h3 {margin: 0.5em 0 0.5em;}
 .overlay iframe {font-size: 1.3em;}
 div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 .portlet img, #content img {max-width:100%;}
+/* lists */
+#content li, dl.portlet li {
+    display: list-item;
+    line-height: 1.5em;
+    list-style: square outside;
+    margin-bottom: 0.25em;
+}
+#content ol li, dl.portlet ol li {list-style: decimal outside;}
 
 /*header*/
 #header {background-size:100% auto;	position:relative;}
@@ -66,7 +74,7 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 #nav {padding: 1em 2em 1em 0;	font-size: 1.2em;}
 #nav ul {padding-top: 0;}
 #nav li {display: inline;}
-#nav a {	padding: 1.1em 2em 1em 2em; text-decoration: none;}
+#nav a {padding: 1.1em 2em 1em 2em; text-decoration: none;}
 #searchbt, #nav #seletor {display:none;}
 
 /* Searchbox */

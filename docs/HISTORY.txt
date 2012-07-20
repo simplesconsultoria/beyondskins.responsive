@@ -6,6 +6,7 @@ Changelog
 
     * New rule for PLone Lingua [tamosauskas]
     * A most efficient rule for head elements. Thanks brett-kimball [tamosauskas]
+    * Fix bug in lists and numbered lists in content [tamosauskas]
 
 0.3 (2012-03-21)
 ~~~~~~~~~~~~~~~~
