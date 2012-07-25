@@ -6,6 +6,9 @@
 
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
 
+    <!--Plone.app.toolbar-->
+    <append theme="/html/body" content="//div[@data-iframe='toolbar']" />
+
     <!--Head-->
     <copy css:content="html" css:theme="html" attributes="lang dir" />
     <before css:content="head style, head link, head script, head meta" css:theme-children="head" />
