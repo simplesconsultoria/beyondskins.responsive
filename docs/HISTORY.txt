@@ -1,17 +1,12 @@
 Changelog
 ------------
 
-0.5 (unreleased)
+0.4 (unreleased)
 ~~~~~~~~~~~~~~~~
     
     * Introduce the "plone:static" directive (from plone.resource)
       before using it [danjacka]
-
     * Add plone.app.toolbar support [ericof]
-
-0.4 (2012-07-16)
-~~~~~~~~~~~~~~~~
-
     * New diazo rule for Analytics [tamosauskas]
     * New diazo rule for Plone Lingua [tamosauskas]
     * A most efficient rule for head elements. Thanks brett-kimball [tamosauskas]
