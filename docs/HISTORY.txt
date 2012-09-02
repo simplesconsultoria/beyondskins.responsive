@@ -1,6 +1,14 @@
 Changelog
 ------------
 
+0.5 (unreleased)
+~~~~~~~~~~~~~~~~
+    
+    * Introduce the "plone:static" directive (from plone.resource)
+      before using it [danjacka]
+
+    * Add plone.app.toolbar support [ericof]
+
 0.4 (2012-07-16)
 ~~~~~~~~~~~~~~~~
 
