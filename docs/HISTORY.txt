@@ -1,7 +1,7 @@
 Changelog
 ------------
 
-0.4 (unreleased)
+0.4 (2012-09-02)
 ~~~~~~~~~~~~~~~~
     
     * Introduce the "plone:static" directive (from plone.resource)
