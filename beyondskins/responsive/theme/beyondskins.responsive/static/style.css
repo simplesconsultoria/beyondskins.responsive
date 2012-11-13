@@ -1,102 +1,120 @@
-/*****************************   
-beyondskins.Responsive - Diazo responsive theme for PLone
+/*********************************************************
+beyondskins.Responsive - Diazo responsive theme for Plone
 Simples Consultoria - www.simplesconsultoria.com.br
-******************************/
+*********************************************************/
+
 /* reset */
 * {margin:0; padding:0; list-style:none; vertical-align:baseline;}
 
-/************** Responsive Diazo Magic ************************/
+/* Background images - Remove this lines for a clean layout */
+body {background: url(bg.jpg) top repeat-x;}
+#header {
+background: transparent url(header.png) top center no-repeat;
+background-size: 100% auto; 
+position:relative;
+}
 
-/* Background images */
-body {background: #ffffff url(bg.jpg) top repeat-x;}
-#header {background: transparent url(header.png) top center no-repeat;}
+/****************** Basic Stuff ******************/
 
 /* Colors and fonts */
-body {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 62.5%;}
+body {
+background-color: #fff;
+color: #000000; 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 62.5%; /* with this 1em = 10px */
+}
 a:link, a:visited, #content a:link, dl.portlet a:link {color:#205C90;}
-a:hover {color:#000;}
-h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif;}
+#content a:hover, dl.portlet a:hover {color: #12304D !important;}
 h1 {color: #205C90;}
 h2, h3, h4, h5, h6 {color: #636466;}
-#wrapper { width:auto; margin: 0 auto; max-width: 90%;	font-size: 1.1em;}
-#main {background:#fff; font-size: 1.3em; padding: 1em 0;}
-
-#nav {background: #205C90;	text-align: left; color: #ffffff;}
-#nav a {color: #ffffff;}
-#nav a:hover, #nav li.selected a {padding-top: 1em;background: #ff9900;}
-
-#portal-searchbox #searchGadget {
-border-width: 1px;
-border-style: solid;
-border-color: #597a97;
-}
-#portal-searchbox .searchButton {
-background:#636466;
-color: #ffffff;
-border-width: 1px;
-border-style: solid;
-border-color: #c8c8c9;
-}
-#footer {background: #205C90; color: #fff;;}
-#footer a:link {color:#fff;;}
-#footer a:hover {color:#fff;;}
-#footer a:visited {color:#fff;;}
-
-
-/****************** Basic Stuff ***********************/
-
-#content {font-size: 90%;}
-p {line-height: 1.8em; margin: 0 0 1em 0;}
 h1, h2, h3 {margin: 0.5em 0 0.5em;}
+p {line-height: 1.8em; margin: 0 0 1em 0;}
+#wrapper { 
+width:auto; 
+margin: 0 auto; 
+max-width: 90%;
+font-size: 1.2em;}
+#main {
+background:#fff; 
+font-size: 1.3em; 
+padding: 1em 0;
+}
+
+/* fix cover overlay, you can remove this lines if you dont use collective cover */
+#exposeMask {z-index: 0 !important;}
+.close {opacity: 0.6; text-indent: -10000px;}
+
+/****************** HEADER ******************/
+
+/* logo */
+#logo {padding: 3% 1%; float: left; width: 50%;}
+#logo img {max-width:100%;}
+#logo a {display:block; width:100%;}
+
+/* Personal tools */
+#portal-personaltools {font-size: 1.2em;}
+
+/* Main navigation */
+#nav {background: #205C90;	}
+#nav ul {;
+background: #205C90;	
+color: #ffffff;
+font-size: 1.2em;
+border-bottom: 1px solid #FF9900;
+}
+#nav a {
+color: #ffffff; 
+padding: 1em; 
+text-decoration: none; 
+min-width: 3em; 
+display: inline-block;
+}
+#nav a:hover, #nav li.selected a {background: #ff9900;}
+
+
+/* Searchbox */
+#portal-searchbox {float: right; margin-top: 3.5%;}
+#portal-searchbox #searchGadget {border: 1px solid #F1F1F1;padding: 0.1em;}
+#searchGadget, .LSBox input.searchButton {padding: 0.1em 0.2em;}
+#LSResult {z-index:1; margin-top: 0.5%;}
+
+
+/****************** CONTENT ******************/
+
+/* Text styles */
 .hidden {display: none;} 
 .clear {clear: both;}
 .pb-ajax, .pb-image, 
-.overlay iframe {font-size: 1.3em;}
-div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
+.overlay iframe {font-size: 1.4em;}
 .portlet img, #content img {max-width:100%;}
+
 /* lists */
 #content li, dl.portlet li {
-    display: list-item;
-    line-height: 1.5em;
-    list-style: square outside;
-    margin-bottom: 0.25em;
+display: list-item;
+line-height: 1.5em;
+list-style: square outside;
+margin-bottom: 0.25em;
 }
 #content ol li, dl.portlet ol li {list-style: decimal outside;}
 dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
-/*header*/
-#header {background-size:100% auto;	position:relative;}
-#logo {padding: 4.83% 1.61%;float: left; width: 50%;}
-#logo img {max-width:100%;}
-#logo a {display:block; width:100%;}
-#portal-personaltools {font-size: 1.1em;}
 
-/* navigation */
-#nav {padding: 1em 2em 1em 0;	font-size: 1.2em;}
-#nav ul {padding-top: 0;}
-#nav li {display: inline;}
-#nav a {padding: 1.1em 2em 1em 2em; text-decoration: none;}
-#searchbt, #nav #seletor {display:none;}
 
-/* Searchbox */
-#portal-searchbox {float: right; margin: 3.5%  1% 0 0; width:24%; font-size: 1em;}
-#portal-searchbox  form, #portal-searchbox  form .LSBox  {font-size: 100%;}
-#portal-searchbox #searchGadget {
-	padding: 1.2% 0  1.1% 0;
-	margin-right: 0.6%;
-	text-indent: 2%;
-	width: 72%;
-	font-size:1.1em;
-}
-#portal-searchbox .searchButton {font-size:0.8em; width: 27%; padding:1.899% 0  0.8% 0; text-align:center;}
-#LSResult {z-index:1; margin-top: 0.5%;}
+/****************** FOOTER ******************/
 
-/*footer*/
-#footer {clear: left; padding: 2em;}
+#footer {background: #205C90; color: #fff;}
+#footer a:link {color:#fff;}
+#footer a:hover {color:#fff;}
+#footer a:visited {color:#fff;}
+#footer {clear: left; padding: 1em 2em;}
 
 /* Site Actions */
-#portal-siteactions {font-size: 100%; text-align: left; display:inline;}
+#portal-siteactions {text-align: left; display:inline;}
 
-/* Responsive Design Magic*/
+
+/****************** RESPONSIVE DESIGN MAGIC ******************/
+
+#searchbt, #nav #seletor {display:none;}
+#nav #seletor {color: #fff;}
 
 @media screen and (max-width: 768px) {
 
