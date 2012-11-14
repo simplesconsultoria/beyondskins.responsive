@@ -23,10 +23,11 @@ color: #000000;
 font-family: Arial, Helvetica, sans-serif; 
 font-size: 62.5%; /* with this 1em = 10px */
 }
-a:link, a:visited, #content a:link, dl.portlet a:link {color:#205C90;}
+a:link, #content a:link, dl.portlet a:link {color:#205C90;}
+#content a:visited, dl.portlet a:visited {color: #266DAB;}
 #content a:hover, dl.portlet a:hover {color: #12304D !important;}
 h1 {color: #205C90;}
-h2, h3, h4, h5, h6 {color: #636466;}
+h2, h3, h4, h5, h6 {color: #636363;}
 h1, h2, h3 {margin: 0.5em 0 0.5em;}
 p {line-height: 1.8em; margin: 0 0 1em 0;}
 #wrapper { 
@@ -58,12 +59,12 @@ padding: 1em 0;
 #nav {background: #205C90;	}
 #nav ul {;
 background: #205C90;	
-color: #ffffff;
+color: #fff;
 font-size: 1.2em;
 border-bottom: 1px solid #FF9900;
 }
 #nav a {
-color: #ffffff; 
+color: #fff; 
 padding: 1em; 
 text-decoration: none; 
 min-width: 3em; 
@@ -103,8 +104,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 
 #footer {background: #205C90; color: #fff;}
 #footer a:link {color:#fff;}
-#footer a:hover {color:#fff;}
-#footer a:visited {color:#fff;}
+#footer a:visited {color:#f1f1f1;}
+#footer a:hover {color: #f1f1f1 !important;}
 #footer {clear: left; padding: 1em 2em;}
 
 /* Site Actions */
@@ -200,6 +201,5 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
         width:80%;
 		clear:both;
 		margin: 0 auto 2%;
+   }
 }
-	}
-)
