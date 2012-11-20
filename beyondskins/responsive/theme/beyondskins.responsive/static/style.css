@@ -76,7 +76,7 @@ display: inline-block;
 /* Searchbox */
 #portal-searchbox {float: right; margin-top: 3.5%;}
 #portal-searchbox #searchGadget {border: 1px solid #F1F1F1;padding: 0.1em;}
-#searchGadget, .LSBox input.searchButton {padding: 0.1em 0.2em;}
+#searchGadget, #header input.searchButton {padding: 0.1em 0.2em;}
 #LSResult {z-index:1; margin-top: 0.5%;}
 
 
