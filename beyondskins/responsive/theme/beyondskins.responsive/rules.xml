@@ -16,6 +16,7 @@
     <copy css:content="head base" css:theme="head base" />
     <drop css:content="head link[rel='shortcut icon']" />
     <drop css:content="head link[rel='apple-touch-icon']" />
+    <drop css:content="head meta[rel='viewport']" />
     
     <!--Content-->
     <merge attributes="class" css:content="body" css:theme="body" />
