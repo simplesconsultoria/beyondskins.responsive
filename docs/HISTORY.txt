@@ -4,6 +4,10 @@ Changelog
 0.5 (unreleased)
 ~~~~~~~~~~~~~~~~
 
+    * A even more efficient rule for head elements. [tamosauskas]
+    * New diazo rule for Plone Lingua [tamosauskas]
+    * Diazo Rule tha moves scripts to the bottom of page  [tamosauskas]
+    * Reorganize Diazo Rules [tamosauskas]
     * Reorganize CSS [agnogueira]
     * New styles for main navigation [agnogueira]
     * New styles fo search [agnogueira]
@@ -16,7 +20,6 @@ Changelog
       before using it [danjacka]
     * Add plone.app.toolbar support [ericof]
     * New diazo rule for Analytics [tamosauskas]
-    * New diazo rule for Plone Lingua [tamosauskas]
     * A most efficient rule for head elements. Thanks brett-kimball [tamosauskas]
     * Fix bug in lists and numbered lists in content [tamosauskas]
 
