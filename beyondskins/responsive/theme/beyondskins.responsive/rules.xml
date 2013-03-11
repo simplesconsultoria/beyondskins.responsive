@@ -33,7 +33,7 @@
     <after css:content="#portal-languageselector" css:theme="#logo" />    
 
     <!-- Scripts -->
-    <drop css:content="script"/>
+    <drop css:content="script" css:if-content="#visual-portal-wrapper" />
     <before method="raw" css:content="script" css:theme="noscript"/>
 
 

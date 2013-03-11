@@ -4,6 +4,7 @@ Changelog
 0.5 (unreleased)
 ~~~~~~~~~~~~~~~~
 
+    * Presentation View is not broken anymore. [tamosauskas]
     * A even more efficient rule for head elements. [tamosauskas]
     * New diazo rule for Plone Lingua [tamosauskas]
     * Diazo Rule tha moves scripts to the bottom of page  [tamosauskas]
