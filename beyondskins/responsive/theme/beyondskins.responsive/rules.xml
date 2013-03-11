@@ -32,9 +32,9 @@
     <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />  
     <after css:content="#portal-languageselector" css:theme="#logo" />    
 
-    <!--Portlets-->
-    <!-- Control Panel -->
-    <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="head script:last-child" />
+    <!-- Scripts -->
+    <drop css:content="script"/>
+    <before method="raw" css:content="script" css:theme="noscript"/>
 
 
 </rules>
