@@ -11,16 +11,13 @@
 
     <!--Head-->
     <copy css:content="html" css:theme="html" attributes="lang dir" />
-    <before css:content="head style, head link, head script, head meta" css:theme-children="head" />
-    <replace css:content="head title" css:theme="head title" />
-    <copy css:content="head base" css:theme="head base" />
+    <prepend css:content-children="head" css:theme="head" />
     <drop css:content="head link[rel='shortcut icon']" />
     <drop css:content="head link[rel='apple-touch-icon']" />
     <drop css:content="head meta[rel='viewport']" />
     
     <!--Content-->
-    <merge attributes="class" css:content="body" css:theme="body" />
-    <copy attributes="id dir" css:content="body" css:theme="body" />
+    <copy attributes="*" css:content="body" css:theme="body" />
 	<copy attributes="role" css:content="content" css:theme="contentspace" />
     <replace css:content="#portal-columns" css:theme="#content" />
     
